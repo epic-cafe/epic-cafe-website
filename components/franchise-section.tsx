@@ -1,7 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Clock, Star, Navigation } from "lucide-react";
+import { MapPin, Phone, Clock, Navigation } from "lucide-react";
+import { FranchiseVideoCarousel } from "@/components/franchise-video-carousel";
 
 type Branch = {
   name: string;
@@ -9,7 +10,6 @@ type Branch = {
   address: string;
   phone?: string;
   hours: string;
-  rating?: number;
   directionsLink: string;
 };
 
@@ -25,19 +25,6 @@ const branches: Branch[] = [
       "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent(
         "Epic Cafe, Housing Board Colony, Arakkonam, Tamil Nadu 631003"
-      ),
-  },
-  {
-    name: "Zam Zam Hots",
-    tagline: "Coimbatore",
-    address:
-      "KGISL, CHIL SEZ IT Park, Saravanampatti, Keeranatham, Coimbatore, Tamil Nadu 641035",
-    hours: "12:00 PM – 12:00 AM Daily",
-    rating: 5,
-    directionsLink:
-      "https://www.google.com/maps/search/?api=1&query=" +
-      encodeURIComponent(
-        "Zam Zam Hots, KGISL CHIL SEZ IT Park, Saravanampatti, Coimbatore, Tamil Nadu 641035"
       ),
   },
 ];
@@ -145,6 +132,8 @@ export function FranchiseSection() {
             </article>
           ))}
         </div>
+
+        <FranchiseVideoCarousel />
 
         {/* Franchise Inquiry Line */}
         <div className="mt-12 text-center">

@@ -175,7 +175,7 @@ function SinglePriceRow({
 
 export function MenuSection() {
   return (
-    <section id="menu" className="py-20 bg-[#F9F9F9]">
+    <section id="menu" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">

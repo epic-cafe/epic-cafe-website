@@ -13,11 +13,11 @@ export default function HomePage() {
     <main>
       <Navigation />
       <HeroSection />
+      <FranchiseSection />
       <FeaturedSection />
       <WhyChooseSection />
       <MenuSection />
       <ContactSection />
-      <FranchiseSection />
       <Footer />
       <WhatsAppFAB />
     </main>
