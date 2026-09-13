@@ -126,3 +126,45 @@
     @apply bg-background text-foreground;
   }
 }
+
+.eyebrow { color: var(--primary); font-size: .72rem; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
+.franchise-section { background: radial-gradient(circle at 12% 12%, color-mix(in oklch, var(--primary) 18%, transparent), transparent 30%), var(--background); }
+.branch-card { overflow: hidden; border: 1px solid color-mix(in oklch, var(--primary) 45%, var(--border)); border-radius: 1.25rem; background: var(--card); box-shadow: 0 20px 60px #0008; }
+.branch-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1.5rem; background: linear-gradient(120deg, var(--primary), color-mix(in oklch, var(--primary) 55%, #000)); color: white; }
+.branch-card-top h3 { margin-top: .25rem; font-size: clamp(2rem, 5vw, 3rem); font-weight: 950; line-height: .9; text-transform: uppercase; }
+.branch-kicker { font-size: .7rem; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; opacity: .8; }
+.halal-badge { border: 1px solid #fff8; border-radius: 999px; padding: .4rem .65rem; font-size: .62rem; font-weight: 900; letter-spacing: .08em; white-space: nowrap; }
+.branch-card-body { padding: 1.25rem; }
+.branch-details { display: grid; gap: .8rem; margin-bottom: 1.25rem; }
+.detail-row { display: flex; gap: .7rem; color: var(--muted-foreground); font-size: .82rem; line-height: 1.45; }
+.detail-row svg { width: 1rem; height: 1rem; flex: 0 0 auto; color: var(--primary); margin-top: .15rem; }
+.detail-row a { color: var(--foreground); font-weight: 700; }
+.branch-gallery-stage, .menu-page-stage { position: relative; height: 19rem; overflow: hidden; perspective: 1100px; border-radius: .9rem; background: #050505; border: 1px solid color-mix(in oklch, var(--primary) 40%, transparent); }
+.branch-gallery-slide, .menu-page-slide { position: absolute; inset: 1rem 22%; overflow: hidden; border: 1px solid #fff3; border-radius: .7rem; background: #111; opacity: 0; transform: translateX(0) rotateY(0) scale(.78); transition: transform .5s ease, opacity .5s ease, filter .5s ease; }
+.branch-gallery-slide img { width: 100%; height: 100%; object-fit: cover; }
+.branch-gallery-slide.active, .menu-page-slide.active { z-index: 3; opacity: 1; transform: translateX(0) rotateY(0) scale(1); box-shadow: 0 20px 30px #000b; }
+.branch-gallery-slide.prev, .branch-gallery-slide.next, .menu-page-slide.prev, .menu-page-slide.next { z-index: 2; opacity: .72; filter: saturate(.8); }
+.branch-gallery-slide.prev, .menu-page-slide.prev { transform: translateX(-67%) rotateY(32deg) scale(.84); }
+.branch-gallery-slide.next, .menu-page-slide.next { transform: translateX(67%) rotateY(-32deg) scale(.84); }
+.branch-gallery-slide.hidden, .menu-page-slide.hidden { transform: scale(.5); }
+.branch-gallery-shade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(transparent 55%, #000b); }
+.branch-gallery-count { position: absolute; z-index: 4; top: .8rem; right: .8rem; color: white; font-size: .7rem; font-weight: 800; }
+.branch-gallery-controls, .menu-page-controls { position: absolute; z-index: 5; inset: auto .8rem .8rem; display: flex; justify-content: space-between; pointer-events: none; }
+.branch-gallery-controls button, .menu-page-controls button { display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border: 1px solid #fff6; border-radius: 999px; background: #000b; color: white; pointer-events: auto; transition: background .2s; }
+.branch-gallery-controls button:hover, .menu-page-controls button:hover { background: var(--primary); }
+.branch-gallery-controls svg, .menu-page-controls svg { width: 1rem; }
+.branch-gallery-caption { margin-top: .65rem; color: var(--muted-foreground); font-size: .72rem; text-align: center; }
+.menu-page-carousel { margin: 4rem auto 0; max-width: 56rem; }
+.menu-page-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.menu-page-heading h3 { margin-top: .35rem; font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 950; text-transform: uppercase; }
+.menu-page-heading h3 span { color: var(--primary); }
+.menu-page-heading a { display: inline-flex; align-items: center; gap: .35rem; color: var(--primary); font-size: .75rem; font-weight: 800; text-transform: uppercase; }
+.menu-page-heading svg { width: .9rem; }
+.menu-page-slide { inset: 1rem 29%; padding: .35rem; }
+.menu-page-slide object { width: 100%; height: calc(100% - 1.1rem); border-radius: .4rem; background: white; }
+.menu-page-slide small { display: block; padding: .25rem .4rem; color: white; font-size: .55rem; font-weight: 800; letter-spacing: .15em; }
+.menu-page-dots { display: flex; justify-content: center; gap: .4rem; margin-top: .9rem; }
+.menu-page-dots button { width: .45rem; height: .45rem; border: 0; border-radius: 999px; background: #fff5; }
+.menu-page-dots button.active { width: 1.6rem; background: var(--primary); }
+@media (max-width: 640px) { .branch-gallery-stage, .menu-page-stage { height: 16rem; } .branch-gallery-slide { inset-inline: 17%; } .menu-page-slide { inset-inline: 20%; } .branch-gallery-slide.prev, .menu-page-slide.prev { transform: translateX(-74%) rotateY(28deg) scale(.78); } .branch-gallery-slide.next, .menu-page-slide.next { transform: translateX(74%) rotateY(-28deg) scale(.78); } .menu-page-heading { align-items: start; flex-direction: column; } }
+

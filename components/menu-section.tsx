@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { MenuPageCarousel } from "@/components/menu-page-carousel";
 
 const ZOMATO_LINK = "https://zomato.onelink.me/xqzv/fzcw53wx";
 
@@ -332,6 +333,7 @@ export function MenuSection() {
             </TabsContent>
           ))}
         </Tabs>
+        <MenuPageCarousel />
       </div>
     </section>
   );
