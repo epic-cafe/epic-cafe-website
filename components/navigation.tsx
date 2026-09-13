@@ -14,10 +14,10 @@ import {
 
 const navLinks = [
   { href: "#home", label: "Home" },
+  { href: "#franchise", label: "Franchise" },
   { href: "#menu", label: "Menu" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
-  { href: "#franchise", label: "Franchise" },
 ];
 
 const ZOMATO_LINK = "https://zomato.onelink.me/xqzv/fzcw53wx";

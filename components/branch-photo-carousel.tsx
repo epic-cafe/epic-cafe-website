@@ -52,7 +52,8 @@ export const arakkonamPhotos = [
 ];
 
 export const kolathurPhotos = [
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%208.59.57%20PM-Mca5o2GDZFlMWBUV8x07TZCmLGZpyM.jpeg", alt: "Epic Fried Chicken storefront" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.05.30%20PM-D9spNP2aeMrxfMDkVt0cFP5ezJICwC.jpeg", alt: "Epic cafe interior" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.05.37%20PM-NCzSFOLaeCBuQ1y1mLrSybgkS96aN3.jpeg", alt: "Epic dining space" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM%20%281%29-apjoXL6SmvRh2PCdh3y1JfsvUg6cYb.jpeg", alt: "Epic Kolathur storefront with fried chicken" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.37%20PM-yrzEMYyOIuj0u789oMKkulrIjyE8M0.jpeg", alt: "Epic Kolathur illuminated menu counter" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM-tTVsAZqPqla34fUKpg2bYomQKvRtEl.jpeg", alt: "Epic Kolathur busy evening storefront" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM%20%282%29-dPY9ICc8Fwtv3N9JSDfSTkcGwmQrF3.jpeg", alt: "Epic Kolathur night storefront" },
 ];

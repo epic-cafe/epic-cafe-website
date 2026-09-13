@@ -22,16 +22,20 @@ const branches = [
     details: "Inside counter, menu boards, and dining corridor",
     photos: [
       {
-        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.05.37%20PM-iD3FzBFeTrunkL88d0gq5AItHVdJow.jpeg",
-        alt: "Kolathur branch dining corridor",
+        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM%20%281%29-apjoXL6SmvRh2PCdh3y1JfsvUg6cYb.jpeg",
+        alt: "Epic Kolathur storefront with fried chicken",
       },
       {
-        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.05.30%20PM-KNbSrxlXJWuYsrWfRiSA0AHJsL1b2d.jpeg",
-        alt: "Kolathur branch red service counter",
+        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.37%20PM-yrzEMYyOIuj0u789oMKkulrIjyE8M0.jpeg",
+        alt: "Epic Kolathur illuminated menu counter",
       },
       {
-        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.05.33%20PM-7fTtwynONwaunVkoyPImQuiga8ouI0.jpeg",
-        alt: "Kolathur branch menu counter",
+        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM-tTVsAZqPqla34fUKpg2bYomQKvRtEl.jpeg",
+        alt: "Epic Kolathur busy evening storefront",
+      },
+      {
+        src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-13%20at%209.36.36%20PM%20%282%29-dPY9ICc8Fwtv3N9JSDfSTkcGwmQrF3.jpeg",
+        alt: "Epic Kolathur night storefront",
       },
     ],
   },
