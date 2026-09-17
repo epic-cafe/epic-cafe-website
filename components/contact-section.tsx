@@ -7,6 +7,7 @@ import {
   MessageCircle,
   Clock,
   Instagram,
+  Mail,
   ExternalLink,
 } from "lucide-react";
 
@@ -43,6 +44,13 @@ const contactInfo = [
     label: "Hours",
     value: "2:30 PM - 11:30 PM Daily",
     link: null,
+    external: false,
+  },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "epicexperience0402@gmail.com",
+    link: "mailto:epicexperience0402@gmail.com",
     external: false,
   },
   {
